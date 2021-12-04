@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script></script>
+    <script src="externalfile.js"></script>
+  </head>
+  <body>
+    <script>
+      //undefined
+      var Fav_Color = prompt("Select your fav color 1)red 2)blue 3)green");
+      flag = "1";
+
+      switch (Fav_Color) {
+        case "1":
+        case "red":
+          color = "RED";
+          break;
+
+        case "2":
+        case "blue":
+          color = "blue";
+          break;
+
+        case "3":
+        case "green":
+          color = "green";
+          break;
+
+        default:
+          flag = 0;
+          break;
+      }
+
+      if (flag == 1) {
+        document.write("Your fav color is " + color);
+      } else {
+        document.write("Please retry again ");
+      }
+    </script>
+  </body>
+</html>
