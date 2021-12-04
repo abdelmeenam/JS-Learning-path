@@ -1,0 +1,6 @@
+1-parseint()
+2-parsefloat()
+3-isfinite()
+4-isNaN()
+5-decodeULR()
+6-encode(ULR)
