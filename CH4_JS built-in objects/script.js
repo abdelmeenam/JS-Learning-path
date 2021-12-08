@@ -29,6 +29,9 @@ console.log(myStr.substring(6,11))                 //world
 //convert string into array
 console.log(myStr.split(" "))
 console.log(myStr.split(""))
+console.log("Game Over")
+//---------------------------------Arrays------------------
+var myArray=['1' , 2 ,'ahmed','sara',['good','ver good'],,'10']
 
-
-
+console.log(myArray.length);
+console.log(myArray[4][1]);
